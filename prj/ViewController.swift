@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
-    let Image = [UIImage(named: "t"),UIImage(named: "t"),UIImage(named: "t")]
+    let Image = [UIImage(named: "kalen-emsley-98265-unsplash"),UIImage(named: "kalen-emsley-98265-unsplash.jpg"),UIImage(named: "kalen-emsley-98265-unsplash.jpg")]
     
     
     override func viewDidLoad() {

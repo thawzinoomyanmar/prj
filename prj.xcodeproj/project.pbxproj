@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEC5026620D6344A000F6400 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5026520D6344A000F6400 /* CollectionViewCell.swift */; };
 		CEF6A97420D55DD900302AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6A97320D55DD900302AD6 /* AppDelegate.swift */; };
 		CEF6A97620D55DD900302AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6A97520D55DD900302AD6 /* ViewController.swift */; };
 		CEF6A97920D55DD900302AD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF6A97720D55DD900302AD6 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEC5026520D6344A000F6400 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		CEF6A97020D55DD900302AD6 /* prj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF6A97320D55DD900302AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF6A97520D55DD900302AD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				CEF6A97320D55DD900302AD6 /* AppDelegate.swift */,
 				CEF6A97520D55DD900302AD6 /* ViewController.swift */,
+				CEC5026520D6344A000F6400 /* CollectionViewCell.swift */,
 				CEF6A97720D55DD900302AD6 /* Main.storyboard */,
 				CEF6A97A20D55DDA00302AD6 /* Assets.xcassets */,
 				CEF6A97C20D55DDA00302AD6 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				CEF6A97620D55DD900302AD6 /* ViewController.swift in Sources */,
 				CEF6A97420D55DD900302AD6 /* AppDelegate.swift in Sources */,
+				CEC5026620D6344A000F6400 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
