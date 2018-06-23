@@ -7,7 +7,10 @@
 //
 
 import UIKit
-
+import Firebase
+import FBSDKLoginKit
+import FBSDKCoreKit
+import FirebaseStorage
 class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var Image: UIImageView!
     
