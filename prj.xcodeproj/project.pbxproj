@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ACDD77FEDCB15F471B16DDBD /* Pods_prj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5B2B3E21BC62FDC68BC096 /* Pods_prj.framework */; };
+		CE10BB5820DEC856007C032C /* UIViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10BB5720DEC856007C032C /* UIViewGradient.swift */; };
 		CE8F5F7120DD4267008628CA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE8F5F7020DD4267008628CA /* GoogleService-Info.plist */; };
 		CEC5026620D6344A000F6400 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5026520D6344A000F6400 /* CollectionViewCell.swift */; };
 		CEF6A97420D55DD900302AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6A97320D55DD900302AD6 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		C535FAE2EB7A5BC896F3534A /* Pods-prj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prj.release.xcconfig"; path = "Pods/Target Support Files/Pods-prj/Pods-prj.release.xcconfig"; sourceTree = "<group>"; };
+		CE10BB5720DEC856007C032C /* UIViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradient.swift; sourceTree = "<group>"; };
 		CE8F5F7020DD4267008628CA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEC5026520D6344A000F6400 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		CEF6A97020D55DD900302AD6 /* prj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prj.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				CEF6A97320D55DD900302AD6 /* AppDelegate.swift */,
+				CE10BB5720DEC856007C032C /* UIViewGradient.swift */,
 				CEF6A97520D55DD900302AD6 /* ViewController.swift */,
 				CEC5026520D6344A000F6400 /* CollectionViewCell.swift */,
 				CEF6A97720D55DD900302AD6 /* Main.storyboard */,
@@ -194,6 +197,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -204,6 +208,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -221,6 +226,7 @@
 			files = (
 				CEF6A97620D55DD900302AD6 /* ViewController.swift in Sources */,
 				CEF6A97420D55DD900302AD6 /* AppDelegate.swift in Sources */,
+				CE10BB5820DEC856007C032C /* UIViewGradient.swift in Sources */,
 				CEC5026620D6344A000F6400 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
